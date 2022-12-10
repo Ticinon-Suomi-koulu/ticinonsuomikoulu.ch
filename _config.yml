@@ -1,58 +1,45 @@
-# Site settings
-title: Ticinon Suomi-Koulu
-email: antti.hyvarinen@gmail.com
-description: >-
-  Suomi-Koulu Ticinossa
+# site settings
+title: Ticinon Suomi-koulu -- Scuola finlandese in Ticino
+subtitle:
+email: antti.hyvarinen@gmail.com@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ticinonsuomikoulu.ch" # your site's URL
+url: "https://ticinonsuomikoulu.ch"
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
-# Social media
-github_username:  aehyvari
-twitter_username: AnttiHyvrinen2
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# Build settings
-theme: minima # or remove for custom theme
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/ticinonsuomikoulu.ch
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn:
+  Twitter:
+  Facebook:
+  Slack:
 
-# Markdown settings
+# build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
 
-# Permalinks
-permalink: /blog/:year/:month/:day/:title/
+sass:
+  style: compressed
 
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /portfolio/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Antti Hyvärinen"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-
-# Exclude from build
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .sass-cache
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md
+
