@@ -7,3 +7,4 @@ permalink: /about/
 ### Ticinon Suomikoulu -- Scuola finladese in Ticino
 Koulu aloittaa toimintansa tässä vähitellen.
 
+
