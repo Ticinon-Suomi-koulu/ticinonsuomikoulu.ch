@@ -37,11 +37,11 @@ jobs:
 
       - name: Deploy via rsync
         env:
-          HOST: ${{ secrets.HOST }}
-          USERNAME: ${{ secrets.USERNAME }}
+          HOST: ${{ secrets.REMOTE_HOST }}
+          USERNAME: ${{ secrets.REMOTE_USER }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           PORT: ${{ secrets.PORT }}
-          TARGET_DIR: ${{ secrets.TARGET_DIR }}
+          TARGET_DIR: ${{ secrets.TARGET }}
         run: |
           # Setup SSH
           mkdir -p ~/.ssh
