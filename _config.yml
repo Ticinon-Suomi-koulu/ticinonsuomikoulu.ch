@@ -2,7 +2,7 @@
 title: Ticinon Suomi-Koulu
 email: antti.hyvarinen@gmail.com
 description: >-
-  A static website built with Jekyll and automatically deployed via GitHub Actions
+  Suomi-Koulu Ticinossa
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ticinonsuomikoulu.ch" # your site's URL
 

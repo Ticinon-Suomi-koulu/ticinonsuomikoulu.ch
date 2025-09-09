@@ -3,4 +3,6 @@ layout: default
 title: Suomikoulusta
 permalink: /about/
 ---
-### Ticinon Suomikoulu
+### Ticinon Suomi-koulu
+
+Koulu aloittaa toimintansa tässä vähitellen.
