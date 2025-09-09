@@ -1,0 +1,58 @@
+# Site settings
+title: Ticinon Suomi-Koulu
+email: antti.hyvarinen@gmail.com
+description: >-
+  A static website built with Jekyll and automatically deployed via GitHub Actions
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ticinonsuomikoulu.ch" # your site's URL
+
+# Social media
+github_username:  aehyvari
+twitter_username: @AnttiHyvrinen2
+
+# Build settings
+theme: minima # or remove for custom theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Permalinks
+permalink: /blog/:year/:month/:day/:title/
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Antti Hyvärinen"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache

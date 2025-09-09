@@ -1,0 +1,18 @@
+main:
+  - title: "Koti"
+    url: /
+  - title: "Suomi-Koulusta"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Yhteystiedot"
+    url: /contact/
+
+sosiaalinen:
+  - title: "GitHub"
+    url: "https://github.com/Ticinon-Suomi-koulu/"
+    icon: "fab fa-github"
+  - title: "Twitter"
+    url: "https://twitter.com/AnttiHyvarin2"
+    icon: "fab fa-twitter"
+
