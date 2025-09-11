@@ -3,6 +3,7 @@ layout: default
 title: Suomikoulusta
 permalink: /about/
 ---
-### Ticinon Suomi-koulu
 
+### Ticinon Suomikoulu -- Scuola finladese in Ticino
 Koulu aloittaa toimintansa tässä vähitellen.
+
