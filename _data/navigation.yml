@@ -1,8 +1,8 @@
 main:
   - title: "Koti"
     url: /
-  - title: "Blog"
-    url: /blog/
+#  - title: "Blog"
+#    url: /blog/
   - title: "Yhteystiedot"
     url: /contact/
 
