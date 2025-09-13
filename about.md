@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Suomikoulusta
-permalink: /about/
+nav-menu: true
 ---
 
 ### Yleistä tietoa koulustamme

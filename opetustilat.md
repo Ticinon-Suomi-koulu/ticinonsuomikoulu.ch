@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Opetustilat
-description: Opetustilat
+description: 
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
