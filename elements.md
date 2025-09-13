@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Opetuspäivät
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
@@ -21,11 +21,17 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Syyslukukausi</h3>
-		<p><el><li>27.9.2025</li></el></p>
+		<p>
+   <el>
+    <li>27.9.2025 klo 10.00 - 12.00</li>
+    <li>25.10.2025 klo 10.00 - 12.00</li>
+    <li>29.11.2025 klo 10.00 - 12.00</li>
+   </el>
+  </p>
 	</div>
 	<div class="6u$ 12u$(small)">
-		<h3>Magna odio tempus commodo</h3>
-		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+		<h3>Kevätlukukausi</h3>
+		<p></p>
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
