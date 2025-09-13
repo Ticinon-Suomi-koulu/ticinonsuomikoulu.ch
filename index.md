@@ -1,18 +1,11 @@
 ---
-layout: default
-title: Ticinon Suomi-Koulu
+layout: home
+title: Koti
+landing-title: 'Tervetuloa mukaan!'
+description: null
+image: null
+author: null
+show_tile: false
 ---
 
-# Ticinon Suomi-Koulu
-
-## Viimeaikaiset postaukset
-
-<ul>
-  {% for post in site.posts limit:5 %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
-  </li>
-  {% endfor %}
-</ul>
-
-[Katso kaikki postaukset](/blog/)
+Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.

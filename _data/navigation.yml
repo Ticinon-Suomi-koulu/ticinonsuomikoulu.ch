@@ -1,10 +1,8 @@
 main:
   - title: "Koti"
     url: /
-  - title: "Suomi-Koulusta"
-    url: /about/
-  - title: "Blog"
-    url: /blog/
+#  - title: "Blog"
+#    url: /blog/
   - title: "Yhteystiedot"
     url: /contact/
 
