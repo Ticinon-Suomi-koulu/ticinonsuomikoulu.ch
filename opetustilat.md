@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Opetustilat
-description: 
-image: assets/images/pic11.jpg
+description:
+image: ./assets/images/map.jpg
 nav-menu: true
 ---
 
