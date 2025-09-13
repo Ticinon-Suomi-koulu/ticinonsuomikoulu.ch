@@ -1,7 +1,7 @@
 main:
   - title: "Koti"
     url: /
-  - title: "Suomi-Koulusta"
+  - title: "Yleist&auml; tietoa koulustamme"
     url: /about/
   - title: "Blog"
     url: /blog/
