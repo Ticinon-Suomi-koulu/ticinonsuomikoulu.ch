@@ -1,8 +1,6 @@
 main:
   - title: "Koti"
     url: /
-  - title: "Yleist&auml; tietoa koulustamme"
-    url: /about/
   - title: "Blog"
     url: /blog/
   - title: "Yhteystiedot"
