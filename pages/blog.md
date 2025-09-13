@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Ticinon Suomi-Koulun blog
-permalink: /blog/
+nav-menu: true
 ---
 ### Ticinon Suomi-koulun blogi
 
