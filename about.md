@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Suomikoulusta
-nav-menu: true
+nav-menu: false
 show_tile: false
 ---
 <div id="main" class="alt">

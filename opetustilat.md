@@ -3,7 +3,7 @@ layout: post
 title: Opetustilat
 description:
 image: ./assets/images/map.jpg
-nav-menu: true
+nav-menu: false
 show_tile: false
 ---
 
