@@ -1,7 +1,7 @@
 # site settings
 title: Ticinon Suomi-koulu - Scuola finlandese in Ticino
 subtitle:
-email: antti.hyvarinen@gmail.com
+email: ticinonsuomikoulu@gmail.com
 description: Ticinon Suomi-koulu on paikka jossa suomalaistaustaiset lapset voivat oppia Suomen kielt&auml; ja kulttuuria
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ticinonsuomikoulu.ch"
