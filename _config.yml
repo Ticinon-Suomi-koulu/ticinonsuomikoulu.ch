@@ -6,12 +6,13 @@ description: Ticinon Suomi-koulu on paikka jossa suomalaistaustaiset lapset voiv
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ticinonsuomikoulu.ch"
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+org_name: Ticinon Suomi-koulu
+co_name: Lugano Liceo 1
+street_address: Viale Carlo Cattaneo 4
+city: Lugano
+state: TI
+zip_code: 6900
+country: Sveitsi
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
