@@ -32,6 +32,7 @@ show_tile: false
  </div>
  <div class="6u$ 12u$(small)">
   <h3>Kevätlukukausi</h3>
+	 <li>24.1.2026 klo 10.00 - 12.00</li>
   <p></p>
  </div>
 </div>
