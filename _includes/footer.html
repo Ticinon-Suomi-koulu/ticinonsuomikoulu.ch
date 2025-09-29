@@ -1,73 +1,66 @@
 <!-- Contact -->
 <section id="contact">
-	<div class="inner">
-		<section>
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Osoite</h3>
-					<span>
-					{% if site.org_name %}
-					    {{ site.org_name }}<br/>
-					{% endif %}
-					{% if site.co_name %}
-					    c/o {{ site.co_name }}<br/>
-					{% endif %}
-					{% if site.street_address %}
-					    {{ site.street_address }}<br/>
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
-			</section>
-		</section>
-	</div>
+    <div class="inner">
+        <section>
+            <div class="contact-method">
+                <span class="icon alt fa-envelope"></span>
+                <h3>Email</h3>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </div>
+        </section>
+        <section>
+            <div class="contact-method">
+                <span class="icon alt fa-home"></span>
+                <h3>Osoite</h3>
+                <span>
+                    {% if site.org_name %}
+                    {{ site.org_name }}<br/>
+                    {% endif %}
+                    {% if site.co_name %}
+                        c/o {{ site.co_name }}<br/>
+                    {% endif %}
+                    {% if site.street_address %}
+                        {{ site.street_address }}<br/>
+                    {% endif %}
+                    {% if site.city %}
+                        {{ site.city }},
+                    {% endif %}
+                    {% if site.state %}
+                        {{ site.state }}
+                    {% endif %}
+                    {% if site.zip_code %}
+                        {{ site.zip_code }}<br />
+                    {% endif %}
+                    {% if site.country %}
+                        {{ site.country }}
+                    {% endif %}
+                </span>
+            </div>
+        </section>
+    </div>
 </section>
 
 <!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
-						<li>
-							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-								<span class="label">{{ key_value[0] }}</span>
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="https://github.com/andrewbanchich" target="_blank">Andrew Banchich</a></li>
-
-			</ul>
-		</div>
-	</footer>
-
-</div>
+<footer id="footer">
+    <div class="inner">
+        <ul class="icons">
+            {% for key_value in site.socials %}
+                {% if key_value[1] %}
+                <li>
+                    <a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+                        <span class="label">{{ key_value[0] }}</span>
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul class="copyright">
+            <li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+                <li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+                <li>Jekyll integration: <a href="https://github.com/andrewbanchich" target="_blank">Andrew Banchich</a></li>
+        </ul>
+    </div>
+</footer>
 
 <!-- Scripts -->
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
