@@ -2,8 +2,8 @@
 layout: page
 title: Opetuspäivät
 image: assets/images/pic01.jpg
-nav-menu: false
-show_tile: false
+nav-menu: true
+show_tile: true
 ---
 
 <!-- Main -->
