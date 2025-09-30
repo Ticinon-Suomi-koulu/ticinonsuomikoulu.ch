@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Opetuspäivät
-image: assets/images/pic01.jpg
+image: assets/images/leikkikoulu.jpg
 nav-menu: true
 show_tile: true
 ---
