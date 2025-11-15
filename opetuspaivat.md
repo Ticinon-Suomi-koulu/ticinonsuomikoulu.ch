@@ -26,13 +26,17 @@ show_tile: true
    <el>
     <li>27.9.2025 klo 10.00 - 12.00</li>
     <li>25.10.2025 klo 10.00 - 12.00</li>
-    <li>29.11.2025 klo 10.00 - 12.00</li>
+    <li>29.11.2025 klo 10.00 - 12.00 (pikkujoulut / joulutori)</li>
    </el>
   </p>
  </div>
  <div class="6u$ 12u$(small)">
   <h3>Kevätlukukausi</h3>
-	 <li>24.1.2026 klo 10.00 - 12.00</li>
+     <li>24.1.2026 klo 10.00 - 12.00</li>
+     <li>28.2.2026 klo 10.00 - 12.00</li>
+     <li>28.3.2026 klo 10.00 - 12.00</li>
+     <li>25.4.2026 klo 10.00 - 12.00</li>
+     <li>30.5.2026 klo 10.00 - 12.00 (kevättori)</li>
   <p></p>
  </div>
 </div>
