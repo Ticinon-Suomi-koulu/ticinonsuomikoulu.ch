@@ -18,25 +18,26 @@ show_tile: true
 
 <!-- Content -->
 <h2 id="content">Yleistä</h2>
-<p>Aloitamme koulun kolmella opetuskerralla syksyllä 2025</p>
+<p>Lukuvuosi 2026 - 2027</p>
 <div class="row">
  <div class="6u 12u$(small)">
   <h3>Syyslukukausi</h3>
   <p>
    <el>
-    <li>27.9.2025 klo 10.00 - 12.00</li>
-    <li>25.10.2025 klo 10.00 - 12.00</li>
-    <li>29.11.2025 klo 10.00 - 12.00 (pikkujoulut / joulutori)</li>
+    <li>29.8.2026 klo 10.00 - 12.00 (paikka avoin)</li>
+    <li>26.9.2026 klo 10.00 - 12.00</li>
+    <li>24.10.2026 klo 10.00 - 12.00</li>
+    <li>28.11.2026 klo 10.00 - 12.00</li>
    </el>
   </p>
  </div>
  <div class="6u$ 12u$(small)">
   <h3>Kevätlukukausi</h3>
-     <li>24.1.2026 klo 10.00 - 12.00</li>
-     <li>28.2.2026 klo 10.00 - 12.00</li>
-     <li>28.3.2026 klo 10.00 - 12.00</li>
-     <li>25.4.2026 klo 10.00 - 12.00 (kevättori)</li>
-     <li>30.5.2026 klo 10.00 - 12.00</li>
+     <li>30.1.2027 klo 10.00 - 12.00</li>
+     <li>27.2.2027 klo 10.00 - 12.00</li>
+     <li>20.3.2027 klo 10.00 - 12.00</li>
+     <li>24.4.2027 klo 10.00 - 12.00 (kevättori)</li>
+     <li>22.5.2027 klo 10.00 - 12.00 (kevätretki)</li>
   <p></p>
  </div>
 </div>
