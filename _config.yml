@@ -13,6 +13,9 @@ city: Lugano
 state: TI
 zip_code: 6900
 country: Sveitsi
+account_name: Scuola finlandese in Ticino
+iban: CH21 0900 0000 1675 5524 0
+bic: POFICHBEXXX
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

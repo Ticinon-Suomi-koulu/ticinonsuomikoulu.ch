@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: page
 title: Suomikoulusta
-nav-menu: false
-show_tile: false
+description: Tietoa koulusta, maksuista ja lahjoituksista
+image: assets/images/pic03.jpg
+nav-menu: true
+show_tile: true
 ---
 <div id="main" class="alt">
 
@@ -12,8 +14,7 @@ show_tile: false
     <h1>Yleistä</h1>
   </header>
   <p>
-   Ticinon Suomi-koulu on perustettu vuonna 2025 ja koulun johtajana
-   toimii Susanne Soldini.
+   Ticinon Suomi-koulu on perustettu Luganossa vuonna 2025
   </p>
 
   <h2 id ="content">Koulun missio</h2>
@@ -41,6 +42,17 @@ show_tile: false
     </p>
    </div>
   </div>
+
+  <h2 id="maksut">Maksutiedot</h2>
+  <p>
+   Lahjoitukset maksetaan yhdistyksen pankkitilille. Mainitse maksun yhteydessä
+   maksajan nimi ja tarvittaessa viite.
+  </p>
+  <p>
+   <strong>Tilinomistaja:</strong> {{ site.account_name }}<br/>
+   <strong>IBAN:</strong> {{ site.iban }}<br/>
+   <strong>BIC:</strong> {{ site.bic }}
+  </p>
  </div>
 </section>
 </div>
