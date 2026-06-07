@@ -14,7 +14,7 @@ show_tile: true
     <h1>Yleistä</h1>
   </header>
   <p>
-   Ticinon Suomi-koulu on perustettu Luganossa vuonna 2025
+   Ticinon Suomi-koulu on perustettu Luganossa vuonna 2025.
   </p>
 
   <h2 id ="content">Koulun missio</h2>
@@ -30,9 +30,7 @@ show_tile: true
      Suomi-koulussa lapsilla on mahdollisuus luoda uusia
      vuorovaikutussuhteita eri kulttuuri- ja kielitaustoista tuleviin
      oppijoihin ja samalla vahvistaa omaa kaksi- tai monikielistä
-     kulttuuri-identiteettiään. Opetuksen tavoitteita arvioidaan pitkin
-     vuotta, minkä tarkoituksena on tukea lapsen kehityksen ja oppimisen
-     jatkumoa.
+     kulttuuri-identiteettiään.
     </p>
    </div>
    <div class="6u 12u$(small)">
