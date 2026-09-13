@@ -51,6 +51,16 @@ show_tile: true
    <strong>IBAN:</strong> {{ site.iban }}<br/>
    <strong>BIC:</strong> {{ site.bic }}
   </p>
+
+  <h2 id="toimintakertomukset">Toimintakertomukset</h2>
+  <p>
+   Koulun toimintaa kuvataan lukuvuosittain toimintakertomuksessa.
+  </p>
+  <ul>
+   <li>
+    <a href="{{ 'assets/documents/toimintakertomus-2025-2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Toimintakertomus lukuvuodelta 2025–2026 (PDF)</a>
+   </li>
+  </ul>
  </div>
 </section>
 </div>
