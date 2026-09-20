@@ -1,0 +1,35 @@
+fi:
+  menu: Valikko
+  address: Osoite
+  country: Sveitsi
+  statutes: Yhdistyksen säännöt (PDF)
+  description: Ticinon Suomi-koulu on paikka jossa suomalaistaustaiset lapset voivat oppia Suomen kieltä ja kulttuuria
+  account_holder: Tilinomistaja
+  calendar:
+    general: Yleistä
+    year_label: Lukuvuosi
+    autumn: Syyslukukausi
+    spring: Kevätlukukausi
+    at: klo
+    notes:
+      paikka_avoin: paikka avoin
+      kevattori: kevättori
+      kevatretki: kevätretki
+
+it:
+  menu: Menu
+  address: Indirizzo
+  country: Svizzera
+  statutes: Statuto dell'associazione (PDF)
+  description: La Scuola finlandese in Ticino è un luogo in cui i bambini di origine finlandese possono imparare la lingua e la cultura finlandesi
+  account_holder: Intestatario
+  calendar:
+    general: Informazioni generali
+    year_label: Anno scolastico
+    autumn: Semestre autunnale
+    spring: Semestre primaverile
+    at: ore
+    notes:
+      paikka_avoin: luogo da confermare
+      kevattori: mercatino di primavera
+      kevatretki: gita di primavera

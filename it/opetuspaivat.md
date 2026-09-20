@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Opetuspäivät
-description: Lukuvuoden opetuspäivät
+title: Giorni di lezione
+description: Giorni di lezione dell'anno scolastico
 image: assets/images/leikkikoulu.jpg
 nav-menu: true
 show_tile: true
-lang: fi
+lang: it
 ---
 {% include opetuspaivat.html %}

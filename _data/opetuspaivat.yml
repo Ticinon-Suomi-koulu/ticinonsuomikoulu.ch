@@ -1,0 +1,19 @@
+# Teaching days for both /opetuspaivat/ and /it/opetuspaivat/.
+# Edit this file only; labels are translated in _data/ui.yml.
+year: "2026–2027"
+start: "10.00"
+end: "12.00"
+autumn:
+  - date: 2026-08-29
+    note: paikka_avoin
+  - date: 2026-09-26
+  - date: 2026-10-24
+  - date: 2026-11-28
+spring:
+  - date: 2027-01-30
+  - date: 2027-02-27
+  - date: 2027-03-20
+  - date: 2027-04-24
+    note: kevattori
+  - date: 2027-05-22
+    note: kevatretki

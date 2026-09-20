@@ -11,7 +11,7 @@
         <section>
             <div class="contact-method">
                 <span class="icon alt fa-home"></span>
-                <h3>Osoite</h3>
+                <h3>{{ ui.address }}</h3>
                 <span>
                     {% if site.org_name %}
                     {{ site.org_name }}<br/>
@@ -31,8 +31,8 @@
                     {% if site.zip_code %}
                         {{ site.zip_code }}<br />
                     {% endif %}
-                    {% if site.country %}
-                        {{ site.country }}
+                    {% if ui.country %}
+                        {{ ui.country }}
                     {% endif %}
                 </span>
             </div>
@@ -56,7 +56,7 @@
         </ul>
         <ul class="copyright">
             <li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-            <li><a href="{{ 'assets/documents/saannot.pdf' | absolute_url }}" target="_blank" rel="noopener noreferrer">Yhdistyksen säännöt (PDF)</a></li>
+            <li><a href="{{ 'assets/documents/saannot.pdf' | absolute_url }}" target="_blank" rel="noopener noreferrer">{{ ui.statutes }}</a></li>
                 <li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
                 <li>Jekyll integration: <a href="https://github.com/andrewbanchich" target="_blank">Andrew Banchich</a></li>
         </ul>

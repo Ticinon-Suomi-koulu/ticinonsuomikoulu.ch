@@ -1,0 +1,17 @@
+{% assign lang = page.lang | default: 'fi' %}
+{% assign ui = site.data.ui[lang] %}
+{% if lang == 'it' %}
+	{% assign home_url = '/it/' %}
+	{% assign other_lang = 'fi' %}
+{% else %}
+	{% assign home_url = '/' %}
+	{% assign other_lang = 'it' %}
+{% endif %}
+{% assign counterpart = site.pages | where: 'name', page.name | where: 'lang', other_lang | first %}
+{% if counterpart %}
+	{% assign other_url = counterpart.url %}
+{% elsif lang == 'it' %}
+	{% assign other_url = '/' %}
+{% else %}
+	{% assign other_url = '/it/' %}
+{% endif %}

@@ -2,9 +2,10 @@
 layout: post
 title: Opetustilat
 description:
-image: ./assets/images/map.jpg
+image: assets/images/map.jpg
 nav-menu: false
 show_tile: false
+lang: fi
 ---
 
 Koulu toimii Liceo di Lugano 1:n tiloissa, Viale Carlo Cattaneo 4, 6900 Lugano. [tässä](https://maps.app.goo.gl/Ea31CW5t5V4qKFeC7) linkki Google mapsiin.

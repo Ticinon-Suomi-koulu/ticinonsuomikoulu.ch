@@ -1,0 +1,42 @@
+{% include i18n.html %}
+{% assign cal = site.data.opetuspaivat %}
+<div id="main" class="alt">
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+
+		<h2 id="content">{{ ui.calendar.general }}</h2>
+		<p>{{ ui.calendar.year_label }} {{ cal.year }}</p>
+		<div class="row">
+			<div class="6u 12u$(small)">
+				<h3>{{ ui.calendar.autumn }}</h3>
+				<ul>
+					{% for item in cal.autumn %}
+					{% assign item_start = item.start | default: cal.start %}
+					{% assign item_end = item.end | default: cal.end %}
+					<li>
+						{{ item.date | date: "%-d.%-m.%Y" }}
+						{{ ui.calendar.at }} {{ item_start }} – {{ item_end }}{% if item.note %} ({{ ui.calendar.notes[item.note] }}){% endif %}
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="6u$ 12u$(small)">
+				<h3>{{ ui.calendar.spring }}</h3>
+				<ul>
+					{% for item in cal.spring %}
+					{% assign item_start = item.start | default: cal.start %}
+					{% assign item_end = item.end | default: cal.end %}
+					<li>
+						{{ item.date | date: "%-d.%-m.%Y" }}
+						{{ ui.calendar.at }} {{ item_start }} – {{ item_end }}{% if item.note %} ({{ ui.calendar.notes[item.note] }}){% endif %}
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+</div>

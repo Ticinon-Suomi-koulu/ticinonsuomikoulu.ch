@@ -38,6 +38,16 @@ socials:
 # build settings
 markdown: kramdown
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: fi
+  - scope:
+      path: "it"
+    values:
+      lang: it
+
 sass:
   style: compressed
 

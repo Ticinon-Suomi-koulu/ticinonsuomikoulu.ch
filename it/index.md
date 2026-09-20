@@ -1,11 +1,11 @@
 ---
 layout: home
-title: Koti
-landing-title: 'Tervetuloa mukaan!'
+title: Home
+landing-title: 'Benvenuti!'
 description: null
 image: null
 author: null
 show_tile: false
-lang: fi
+lang: it
+permalink: /it/
 ---
-

@@ -69,6 +69,33 @@
 			height: inherit;
 			line-height: inherit;
 
+			.lang-switch {
+				display: inline-flex;
+				align-items: center;
+				font-size: 0.8em;
+				padding: 0 0.5em;
+
+				a, span {
+					border: 0;
+					display: inline-block;
+					height: inherit;
+					line-height: inherit;
+					padding: 0 0.35em;
+				}
+
+				span[aria-current="true"] {
+					opacity: 1;
+				}
+
+				a {
+					opacity: 0.55;
+
+					&:hover, &:focus {
+						opacity: 1;
+					}
+				}
+			}
+
 			a {
 				border: 0;
 				display: block;

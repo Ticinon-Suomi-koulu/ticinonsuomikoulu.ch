@@ -5,7 +5,9 @@ description: Tietoa koulusta, maksuista ja lahjoituksista
 image: assets/images/pic03.jpg
 nav-menu: true
 show_tile: true
+lang: fi
 ---
+{% include i18n.html %}
 <div id="main" class="alt">
 
 <section id="one">
@@ -47,7 +49,7 @@ show_tile: true
    maksajan nimi ja tarvittaessa viite.
   </p>
   <p>
-   <strong>Tilinomistaja:</strong> {{ site.account_name }}<br/>
+   <strong>{{ ui.account_holder }}:</strong> {{ site.account_name }}<br/>
    <strong>IBAN:</strong> {{ site.iban }}<br/>
    <strong>BIC:</strong> {{ site.bic }}
   </p>
