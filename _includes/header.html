@@ -6,13 +6,8 @@
 	<a href="{{ home_url | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
 		<span class="lang-switch">
-			{% if lang == 'fi' %}
-				<span aria-current="true">FI</span>
-				<a href="{{ other_url | relative_url }}" lang="it" hreflang="it">IT</a>
-			{% else %}
-				<a href="{{ other_url | relative_url }}" lang="fi" hreflang="fi">FI</a>
-				<span aria-current="true">IT</span>
-			{% endif %}
+			<a href="{{ url_fi | relative_url }}" lang="fi" hreflang="fi"{% if lang == 'fi' %} aria-current="true"{% endif %}>FI</a>
+			<a href="{{ url_it | relative_url }}" lang="it" hreflang="it"{% if lang == 'it' %} aria-current="true"{% endif %}>IT</a>
 		</span>
 		<a href="#menu">{{ ui.menu }}</a>
 	</nav>

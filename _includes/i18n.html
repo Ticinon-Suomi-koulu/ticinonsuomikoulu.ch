@@ -15,3 +15,10 @@
 {% else %}
 	{% assign other_url = '/it/' %}
 {% endif %}
+{% if lang == 'fi' %}
+	{% assign url_fi = page.url %}
+	{% assign url_it = other_url %}
+{% else %}
+	{% assign url_fi = other_url %}
+	{% assign url_it = page.url %}
+{% endif %}

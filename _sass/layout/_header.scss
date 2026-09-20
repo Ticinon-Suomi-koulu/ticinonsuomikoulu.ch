@@ -70,25 +70,26 @@
 			line-height: inherit;
 
 			.lang-switch {
-				display: inline-flex;
+				display: flex;
+				flex-direction: row;
 				align-items: center;
+				flex-shrink: 0;
 				font-size: 0.8em;
-				padding: 0 0.5em;
-
-				a, span {
-					border: 0;
-					display: inline-block;
-					height: inherit;
-					line-height: inherit;
-					padding: 0 0.35em;
-				}
-
-				span[aria-current="true"] {
-					opacity: 1;
-				}
+				white-space: nowrap;
+				padding: 0 0.75em;
 
 				a {
+					border: 0;
+					display: inline;
+					font-size: 1em;
+					height: auto;
+					line-height: inherit;
+					padding: 0 0.35em;
 					opacity: 0.55;
+
+					&[aria-current="true"] {
+						opacity: 1;
+					}
 
 					&:hover, &:focus {
 						opacity: 1;
@@ -96,7 +97,7 @@
 				}
 			}
 
-			a {
+			> a {
 				border: 0;
 				display: block;
 				font-size: 0.8em;
@@ -180,7 +181,7 @@
 
 		@include breakpoint(xlarge) {
 			nav {
-				a {
+				> a {
 					&[href="#menu"] {
 						padding-right: 3.75em !important;
 
@@ -194,7 +195,7 @@
 
 		@include breakpoint(large) {
 			nav {
-				a {
+				> a {
 					&[href="#menu"] {
 						padding-right: 4em !important;
 
@@ -215,7 +216,7 @@
 			}
 
 			nav {
-				a {
+				> a {
 					padding: 0 0.5em;
 
 					&:last-child {
@@ -249,7 +250,7 @@
 			}
 
 			nav {
-				a {
+				> a {
 					&[href="#menu"] {
 						overflow: hidden;
 						padding-right: 0 !important;
