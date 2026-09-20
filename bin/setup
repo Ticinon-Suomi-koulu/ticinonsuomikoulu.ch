@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+# shellcheck source=ruby-path.sh
+source "$(dirname "$0")/ruby-path.sh"
+
+if ! ruby -e 'v = RUBY_VERSION.split(".").map(&:to_i); abort unless v[0] > 3 || (v[0] == 3 && v[1] >= 1)'; then
+  echo "Ruby 3.1+ required. On Apple Silicon: brew install ruby@3.1" >&2
+  echo "Then: export PATH=\"/opt/homebrew/opt/ruby@3.1/bin:\$PATH\"" >&2
+  ruby -v >&2 || true
+  exit 1
+fi
+
+echo "Using $(ruby -v)"
+gem install bundler -v '>= 2.5' --no-document
+ruby -S bundle install
+echo
+echo "Ready. Preview with: bin/serve"

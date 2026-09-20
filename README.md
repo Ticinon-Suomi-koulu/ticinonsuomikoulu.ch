@@ -1,6 +1,18 @@
 # Forty - Jekyll Theme
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+## Local preview
+
+macOS ships Ruby 2.6, which cannot build this site. Use Homebrew Ruby 3.1 (same major version as CI):
+
+```
+brew install ruby@3.1
+bin/setup
+bin/serve
+```
+
+Then open http://127.0.0.1:4000/
+
+# How to Use  
 
 ![Forty Theme](assets/images/forty.jpg "Forty Theme")
 

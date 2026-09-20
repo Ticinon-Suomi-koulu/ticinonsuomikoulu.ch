@@ -1,0 +1,54 @@
+/// School mark
+
+	.logo-stage {
+		position: relative;
+		width: 18em;
+		max-width: 80%;
+		margin: 0 auto 1.75em auto;
+		padding: 0.45em 0.6em;
+	}
+
+	.logo-mark {
+		display: block;
+		width: 100%;
+		height: auto;
+		position: relative;
+		z-index: 1;
+		pointer-events: none;
+		user-select: none;
+		transform-origin: 50% 70%;
+		will-change: transform;
+	}
+
+	.logo-stars {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		pointer-events: none;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.logo-stars {
+			display: none;
+		}
+
+		.logo-mark {
+			transform: none !important;
+		}
+	}
+
+	#banner > .inner {
+		.logo-mark {
+			@include vendor('filter', 'drop-shadow(0 0.6em 1.2em rgba(0,0,0,0.35))');
+		}
+	}
+
+	@include breakpoint(small) {
+		.logo-stage {
+			width: 13em;
+			margin-bottom: 1.25em;
+		}
+	}

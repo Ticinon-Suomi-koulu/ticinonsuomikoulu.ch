@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+# shellcheck source=ruby-path.sh
+source "$(dirname "$0")/ruby-path.sh"
+
+if ! ruby -S bundle check >/dev/null 2>&1; then
+  echo "Run bin/setup first." >&2
+  exit 1
+fi
+
+exec ruby -S bundle exec jekyll serve --livereload --host 127.0.0.1 --port "${PORT:-4000}"
