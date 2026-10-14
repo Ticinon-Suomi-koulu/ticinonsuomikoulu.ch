@@ -1,0 +1,13 @@
+<h2 id="opettajat">{{ ui.people.teachers }}</h2>
+<ul class="alt">
+	{% for person in site.data.ihmiset.teachers %}
+	<li><strong>{{ person.name }}</strong>, {{ person.role[lang] }}</li>
+	{% endfor %}
+</ul>
+
+<h2 id="hallinto">{{ ui.people.board }}</h2>
+<ul class="alt">
+	{% for person in site.data.ihmiset.board %}
+	<li><strong>{{ person.name }}</strong>, {{ person.role[lang] }}</li>
+	{% endfor %}
+</ul>

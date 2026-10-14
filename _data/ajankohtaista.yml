@@ -1,0 +1,27 @@
+- pdf: assets/documents/kauneimmat-joululaulut-esite.pdf
+  fi:
+    title: Yhteiset joulujuhlat
+    when: Lauantai 28.11.2026
+    lead: Ticinon Suomi-koulu ja Suomalainen kirkko Sveitsissä järjestävät yhteiset joulujuhlat Luganossa.
+    events:
+      - time: "11.30"
+        title: Joulukestit ja myyjäiset
+        place: Liceo Cantonale di Lugano, Via Carlo Cattaneo 4, Lugano
+        note: Väistötilat lyseorakennuksen vieressä
+      - time: "13.30"
+        title: Kauneimmat joululaulut
+        place: Chiesa Evangelica Riformata, Via Carlo Cattaneo 2, Lugano
+        note: Kirkkokahvit
+  it:
+    title: Festa di Natale
+    when: Sabato 28.11.2026
+    lead: La Scuola finlandese in Ticino e la Chiesa finlandese in Svizzera organizzano insieme la festa di Natale a Lugano.
+    events:
+      - time: "11.30"
+        title: Pranzo di Natale e mercatino
+        place: Liceo Cantonale di Lugano, Via Carlo Cattaneo 4, Lugano
+        note: Locali provvisori accanto all’edificio del liceo
+      - time: "13.30"
+        title: Kauneimmat joululaulut
+        place: Chiesa Evangelica Riformata, Via Carlo Cattaneo 2, Lugano
+        note: Caffè dopo i canti

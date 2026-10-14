@@ -1,0 +1,13 @@
+{% assign news_page = site.html_pages | where: "news_page", true | where: "lang", lang | first %}
+{% if news_page and site.data.ajankohtaista.size > 0 %}
+{% assign news_item = site.data.ajankohtaista | first %}
+{% assign news_copy = news_item[lang] %}
+<section id="ajankohtaista" class="news-panel">
+	<a href="{{ news_page.url | relative_url }}">
+		<header>
+			<h2>{{ ui.news.title }}</h2>
+			<p>{{ news_copy.title }} · {{ news_copy.when }}</p>
+		</header>
+	</a>
+</section>
+{% endif %}

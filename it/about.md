@@ -43,6 +43,11 @@ lang: it
    </div>
   </div>
 
+  {% assign people_page = site.html_pages | where: "people_page", true | where: "lang", lang | first %}
+  <p>
+   <a href="{{ people_page.url | relative_url }}" class="button">{{ ui.people.link }}</a>
+  </p>
+
   <h2 id="maksut">Dati di pagamento</h2>
   <p>
    Le donazioni si versano sul conto bancario dell’associazione. Indicare

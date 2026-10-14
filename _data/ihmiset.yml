@@ -1,0 +1,42 @@
+teachers:
+  - name: Veera Helle-Custer
+    role:
+      fi: Muskarin opettaja
+      it: Insegnante di musica per i più piccoli
+  - name: Maaret Jokela-Pansini
+    role:
+      fi: Opettaja, puput ja oravat (3–6 v.)
+      it: Insegnante, gruppo Puput ja oravat (3–6 anni)
+  - name: Susanna Virtanen
+    role:
+      fi: Opettaja, ketut (6–10 v.)
+      it: Insegnante, gruppo Ketut (6–10 anni)
+  - name: Marika Haapavaara
+    role:
+      fi: Apuopettaja
+      it: Assistente
+  - name: Susanne Soldini
+    role:
+      fi: Apuopettaja
+      it: Assistente
+  - name: Antti Hyvärinen
+    role:
+      fi: Muskarin opettaja
+      it: Insegnante di musica per i più piccoli
+board:
+  - name: Susanne Soldini
+    role:
+      fi: Puheenjohtaja ja koulunjohtaja
+      it: Presidente e direttrice della scuola
+  - name: Maaret Jokela-Pansini
+    role:
+      fi: Varapuheenjohtaja
+      it: Vicepresidente
+  - name: Antti Hyvärinen
+    role:
+      fi: Rahastonhoitaja
+      it: Tesoriere
+  - name: Marika Haapavaara
+    role:
+      fi: Varajäsen
+      it: Membro supplente

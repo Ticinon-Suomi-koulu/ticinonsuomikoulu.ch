@@ -4,6 +4,13 @@ fi:
   country: Sveitsi
   statutes: Yhdistyksen säännöt (PDF)
   description: Ticinon Suomi-koulu on paikka jossa suomalaistaustaiset lapset voivat oppia Suomen kieltä ja kulttuuria
+  news:
+    title: Ajankohtaista
+    pdf: Esite (PDF)
+  people:
+    teachers: Opettajat
+    board: Hallinto
+    link: Opettajat ja hallinto
   account_holder: Tilinomistaja
   calendar:
     general: Yleistä
@@ -22,6 +29,13 @@ it:
   country: Svizzera
   statutes: Statuto dell'associazione (PDF)
   description: La Scuola finlandese in Ticino è un luogo in cui i bambini di origine finlandese possono imparare la lingua e la cultura finlandesi
+  news:
+    title: Novità
+    pdf: Locandina (PDF)
+  people:
+    teachers: Insegnanti
+    board: Amministrazione
+    link: Insegnanti e amministrazione
   account_holder: Intestatario
   calendar:
     general: Informazioni generali

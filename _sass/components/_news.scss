@@ -1,0 +1,84 @@
+/// Homepage notice panel and its page
+
+	.news-panel {
+		border-top: 0 !important;
+
+		> a {
+			@include vendor('align-items', 'center');
+			@include vendor('display', 'flex');
+			@include vendor('transition', 'background-color 0.25s ease');
+			background-color: _palette(accent5);
+			border: 0;
+			color: _palette(bg);
+			min-height: 14em;
+			padding: 3em 4em;
+			text-decoration: none;
+
+			&:hover {
+				background-color: _palette(accent1);
+				border: 0;
+				color: _palette(bg) !important;
+			}
+
+			header {
+				margin: 0;
+				max-width: 100%;
+				width: -moz-max-content;
+				width: -webkit-max-content;
+				width: max-content;
+			}
+
+			h2 {
+				color: inherit;
+				margin-bottom: 0;
+
+				&:after {
+					background-color: currentColor;
+					content: '';
+					display: block;
+					height: 2px;
+					margin: 0.325em 0 0 0;
+					width: 100%;
+				}
+			}
+
+			p {
+				color: inherit;
+				font-size: 0.7em;
+				font-weight: _font(weight-bold);
+				letter-spacing: _font(letter-spacing-alt);
+				margin: 0.75em 0 0 0;
+				text-transform: uppercase;
+			}
+		}
+
+		@include breakpoint(small) {
+			> a {
+				min-height: 10em;
+				padding: 2em 1.5em;
+			}
+		}
+	}
+
+	.news-item {
+		max-width: 40em;
+
+		h2 {
+			margin-bottom: 0.35em;
+		}
+	}
+
+	.news-when {
+		font-size: 0.8em;
+		font-weight: _font(weight-bold);
+		letter-spacing: _font(letter-spacing-alt);
+		text-transform: uppercase;
+	}
+
+	.news-event {
+		margin-bottom: 1.25em;
+	}
+
+	.news-time {
+		color: _palette(highlight);
+	}

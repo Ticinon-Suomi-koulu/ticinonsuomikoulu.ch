@@ -1,0 +1,18 @@
+{% for item in site.data.ajankohtaista %}
+{% assign copy = item[lang] %}
+<article class="news-item">
+	<h2>{{ copy.title }}</h2>
+	<p class="news-when">{{ copy.when }}</p>
+	<p>{{ copy.lead }}</p>
+	{% for event in copy.events %}
+	<p class="news-event">
+		<strong class="news-time">{{ event.time }}</strong> {{ event.title }}<br>
+		{{ event.place }}<br>
+		{{ event.note }}
+	</p>
+	{% endfor %}
+	<ul class="actions">
+		<li><a class="button" href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ ui.news.pdf }}</a></li>
+	</ul>
+</article>
+{% endfor %}
