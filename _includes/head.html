@@ -8,6 +8,9 @@
 	{% if counterpart %}
 	<link rel="alternate" hreflang="{% if lang == 'it' %}fi{% else %}it{% endif %}" href="{{ other_url | absolute_url }}" />
 	{% endif %}
+	<link rel="icon" href="{{ "/favicon.ico" | relative_url }}" sizes="any">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "assets/images/favicon-32.png" | relative_url }}">
+	<link rel="apple-touch-icon" href="{{ "assets/images/apple-touch-icon.png" | relative_url }}">
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
