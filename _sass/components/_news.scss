@@ -5,27 +5,51 @@
 
 		> a {
 			@include vendor('align-items', 'center');
+			@include vendor('justify-content', 'center');
 			@include vendor('display', 'flex');
-			@include vendor('transition', 'background-color 0.25s ease');
+			text-align: center;
 			background-color: _palette(accent5);
+			background-image: url("../images/lugano-lake.jpg");
+			background-position: center 42%;
+			background-size: cover;
 			border: 0;
-			color: _palette(bg);
+			color: _palette(fg);
 			min-height: 14em;
+			overflow: hidden;
 			padding: 3em 4em;
+			position: relative;
 			text-decoration: none;
 
+			&:before {
+				@include vendor('transition', 'opacity 0.35s ease');
+				background-color: _palette(bg);
+				content: '';
+				height: 100%;
+				left: 0;
+				opacity: 0.55;
+				pointer-events: none;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
 			&:hover {
-				background-color: _palette(accent1);
 				border: 0;
-				color: _palette(bg) !important;
+				color: _palette(fg) !important;
+
+				&:before {
+					opacity: 0.28;
+				}
 			}
 
 			header {
 				margin: 0;
 				max-width: 100%;
+				position: relative;
 				width: -moz-max-content;
 				width: -webkit-max-content;
 				width: max-content;
+				z-index: 1;
 			}
 
 			h2 {
