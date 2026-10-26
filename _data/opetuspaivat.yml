@@ -9,6 +9,7 @@ autumn:
   - date: 2026-09-26
   - date: 2026-10-24
   - date: 2026-11-28
+    start: "10.30"
 spring:
   - date: 2027-01-30
   - date: 2027-02-27
